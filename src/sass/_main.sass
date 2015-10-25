@@ -1,9 +1,20 @@
-// Normally mainpage styles
-// body
-// 	+s(coderiver)
-div
-	+r(1024)
-		display: block
-p
-	+r(1024)
-		background: red
+.form
+	width: 613px
+	height: 841px
+	float: right
+	background-color: white
+	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.17)
+	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.17)
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.17)
+	position: relative
+	&:before
+		content: ''
+		position: absolute
+		left: -310px
+		top: 0
+		width: 348px
+		height: 491px
+		background: url("../img/girl.png") 0 0 no-repeat
+	.box
+		padding: 40px 47px
+		+box

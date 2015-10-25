@@ -21,6 +21,9 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
+.container { width: 920px; margin: 0 auto; padding: 65px 0 95px 0; box-sizing: border-box; *zoom: 1; }
+.container:after { content: " "; display: table; clear: both; }
+
 @font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 .icon, [class^="icon-"], [class*=" icon-"] { font-family: "svgfont"; font-style: normal; font-weight: normal; text-rendering: auto; speak: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
@@ -34,11 +37,12 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .l:after { content: " "; display: table; clear: both; }
 .l .l-col1 { float: left; width: 20%; }
 .l .l-col2 { float: right; width: 70%; }
+
+.form { width: 613px; height: 841px; float: right; background-color: white; box-shadow: 0 0 7px rgba(0, 0, 0, 0.17); position: relative; }
+.form:before { content: ""; position: absolute; left: -310px; top: 0; width: 348px; height: 491px; background: url("../img/girl.png") 0 0 no-repeat; }
+.form .box { padding: 40px 47px; box-sizing: border-box; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
-@media only screen and (max-width: 1024px){
- div{ display: block; }
- p{ background: red; } }
 
 
 
