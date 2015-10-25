@@ -41,6 +41,29 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .form { width: 613px; height: 841px; float: right; background-color: white; box-shadow: 0 0 7px rgba(0, 0, 0, 0.17); position: relative; }
 .form:before { content: ""; position: absolute; left: -310px; top: 0; width: 348px; height: 491px; background: url("../img/girl.png") 0 0 no-repeat; }
 .form .box { padding: 40px 47px; box-sizing: border-box; }
+.form .box .name { color: #010101; font-family: "Open Sans", sans-serif; font-size: 14px; font-weight: 400; line-height: 20px; text-transform: uppercase; margin-bottom: 15px; }
+.form .box .type__kitchen { width: 100%; box-sizing: border-box; *zoom: 1; }
+.form .box .type__kitchen:after { content: " "; display: table; clear: both; }
+.form .box .type__kitchen .col { float: left; width: 50%; }
+.form .box .type__kitchen .col .item { float: left; width: 50%; }
+.form .box .type__kitchen .col .item label { width: 92px; height: 68px; display: block; border: 1px solid transparent; }
+.form .box .size__kitchen { width: 100%; box-sizing: border-box; *zoom: 1; margin-bottom: 38px; }
+.form .box .size__kitchen:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__form { width: 100%; box-sizing: border-box; *zoom: 1; }
+.form .box .size__kitchen .box__form:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__form .button { width: 100%; }
+.form .box .size__kitchen .box__form .button input { width: 148px; height: 33px; background-color: #2f649e; font-family: "Open Sans", sans-serif; color: #fff; font-size: 14px; font-weight: 400; text-transform: uppercase; }
+.form .box .marketing__text { width: 100%; box-sizing: border-box; *zoom: 1; }
+.form .box .marketing__text:after { content: " "; display: table; clear: both; }
+.form .box .marketing__text .s-name { height: 16px; color: black; font-family: "Times New Roman"; font-style: italic; font-size: 18px; font-weight: 400; line-height: 20px; margin-bottom: 40px; }
+.form .box .marketing__text .list { float: left; width: 100%; box-sizing: border-box; *zoom: 1; }
+.form .box .marketing__text .list:after { content: " "; display: table; clear: both; }
+.form .box .marketing__text .list .name { height: 21px; color: black; font-family: "Open Sans", sans-serif; font-size: 18px; font-weight: 400; line-height: 20px; margin-bottom: 15px; text-transform: uppercase; }
+.form .box .marketing__text .list .wrap { width: 100%; box-sizing: border-box; *zoom: 1; }
+.form .box .marketing__text .list .wrap:after { content: " "; display: table; clear: both; }
+.form .box .marketing__text .list .wrap .item { float: left; width: 100%; margin-bottom: 12px; height: 26px; }
+.form .box .marketing__text .list .wrap .item .number { width: 26px; height: 26px; border: 1px solid #fdbd19; text-align: center; color: black; font-family: "Open Sans", sans-serif; font-size: 14px; font-weight: 400; line-height: 25px; text-transform: uppercase; float: left; margin-right: 10px; }
+.form .box .marketing__text .list .wrap .item .text { display: table-cell; vertical-align: middle; height: 26px; color: black; font-family: "Open Sans", sans-serif; font-size: 14px; font-weight: 400; line-height: 20px; }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px){
  *{ -webkit-text-size-adjust: none; } }
 
