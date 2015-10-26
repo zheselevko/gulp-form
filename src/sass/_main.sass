@@ -16,7 +16,7 @@
 		height: 491px
 		background: url("../img/girl.png") 0 0 no-repeat
 	.box
-		padding: 40px 47px
+		padding: 40px 38px
 		+box
 		.name
 			color: rgb(1, 1, 1)
@@ -46,10 +46,128 @@
 			+box
 			+clr
 			margin-bottom: 38px
+			.box__size
+				width: 100%
+				margin-bottom: 20px
+				+box
+				+clr
+				.col
+					float: left
+					width: 33.3%
+					input
+						width: 172px
+						height: 29px
+						background-color: rgba(211, 210, 194, 0.8)
 			.box__form
 				width: 100%
 				+box
 				+clr
+				.selects
+					width: 100%
+					margin-bottom: 22px
+					+box
+					+clr
+					.col
+						float: left
+						width: 50%
+				.info
+					width: 100%
+					+box
+					+clr
+					.col
+						float: left
+						width: 50%
+						.item
+							width: 100%
+							float: left
+							margin-bottom: 14px
+							position: relative
+							label
+								display: inline-block
+								margin: 0
+								cursor: pointer
+							input[type="text"]
+								width: 182px
+								height: 29px
+								background-color: rgb(211, 210, 194)
+								padding: 0 40px
+								color: rgb(93, 93, 93)
+								+regular
+								font-size: 12px
+								font-weight: 400
+							textarea
+								width: 194px
+								height: 46px
+								background-color: rgb(211, 210, 194)
+								padding: 13px 34px
+								border: none
+								resize: none
+								color: rgb(93, 93, 93)
+								+regular
+								font-size: 12px
+								font-weight: 400
+							label[for="email"]
+								position: absolute
+								top: 50%
+								margin-top: -5px
+								left: 14px
+								width: 12px
+								height: 11px
+								background: url("../img/email.png") 0 0 no-repeat
+							label[for="phone"]
+								position: absolute
+								top: 50%
+								margin-top: -5px
+								left: 14px
+								width: 18px
+								height: 11px
+								background: url("../img/phone.png") 0 0 no-repeat
+							label[for="name"]
+								position: absolute
+								top: 50%
+								margin-top: -7px
+								left: 14px
+								width: 15px
+								height: 15px
+								background: url("../img/name.png") 0 0 no-repeat
+							label[for="question"]
+								position: absolute
+								left: 11px
+								top: 10px
+								width: 12px
+								height: 15px
+								background: url("../img/quest.png") 0 0 no-repeat
+						.area
+							margin-bottom: 6px
+						.file
+							position: relative
+							width: 266px
+							height: 29px
+							cursor: pointer
+							overflow: hidden
+							line-height: 29px
+							background: url("../img/plus.png") right 0 no-repeat
+							input[type="file"]
+								position: absolute
+								left: 0
+								top: 0
+								width: 100% !important
+								height: 100% !important
+								opacity: 0
+								cursor: pointer
+								padding: 0
+								border: 0
+								line-height: 1em !important
+							span
+								display: block
+								color: rgb(93, 93, 93)
+								+regular
+								height: 29px
+								padding-left: 10px
+								font-size: 10px
+								font-weight: 400
+								line-height: 29px
+
 				.button
 					width: 100%
 					input

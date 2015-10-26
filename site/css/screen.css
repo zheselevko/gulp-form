@@ -21,7 +21,7 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 
 body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
-.container { width: 920px; margin: 0 auto; padding: 65px 0 95px 0; box-sizing: border-box; *zoom: 1; }
+.container { width: 920px; margin: 0 auto; padding: 65px 0 73px 0; box-sizing: border-box; *zoom: 1; }
 .container:after { content: " "; display: table; clear: both; }
 
 @font-face { font-family: "svgfont"; src: url("fonts/svgfont.eot"); src: url("fonts/svgfont.eot?#iefix") format("eot"), url("fonts/svgfont.woff") format("woff"), url("fonts/svgfont.woff2") format("woff2"), url("fonts/svgfont.ttf") format("truetype"); font-weight: normal; font-style: normal; }
@@ -40,7 +40,7 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 
 .form { width: 613px; height: 841px; float: right; background-color: white; box-shadow: 0 0 7px rgba(0, 0, 0, 0.17); position: relative; }
 .form:before { content: ""; position: absolute; left: -310px; top: 0; width: 348px; height: 491px; background: url("../img/girl.png") 0 0 no-repeat; }
-.form .box { padding: 40px 47px; box-sizing: border-box; }
+.form .box { padding: 40px 38px; box-sizing: border-box; }
 .form .box .name { color: #010101; font-family: "Open Sans", sans-serif; font-size: 14px; font-weight: 400; line-height: 20px; text-transform: uppercase; margin-bottom: 15px; }
 .form .box .type__kitchen { width: 100%; box-sizing: border-box; *zoom: 1; }
 .form .box .type__kitchen:after { content: " "; display: table; clear: both; }
@@ -49,8 +49,30 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .form .box .type__kitchen .col .item label { width: 92px; height: 68px; display: block; border: 1px solid transparent; }
 .form .box .size__kitchen { width: 100%; box-sizing: border-box; *zoom: 1; margin-bottom: 38px; }
 .form .box .size__kitchen:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__size { width: 100%; margin-bottom: 20px; box-sizing: border-box; *zoom: 1; }
+.form .box .size__kitchen .box__size:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__size .col { float: left; width: 33.3%; }
+.form .box .size__kitchen .box__size .col input { width: 172px; height: 29px; background-color: rgba(211, 210, 194, 0.8); }
 .form .box .size__kitchen .box__form { width: 100%; box-sizing: border-box; *zoom: 1; }
 .form .box .size__kitchen .box__form:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__form .selects { width: 100%; margin-bottom: 22px; box-sizing: border-box; *zoom: 1; }
+.form .box .size__kitchen .box__form .selects:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__form .selects .col { float: left; width: 50%; }
+.form .box .size__kitchen .box__form .info { width: 100%; box-sizing: border-box; *zoom: 1; }
+.form .box .size__kitchen .box__form .info:after { content: " "; display: table; clear: both; }
+.form .box .size__kitchen .box__form .info .col { float: left; width: 50%; }
+.form .box .size__kitchen .box__form .info .col .item { width: 100%; float: left; margin-bottom: 14px; position: relative; }
+.form .box .size__kitchen .box__form .info .col .item label { display: inline-block; margin: 0; cursor: pointer; }
+.form .box .size__kitchen .box__form .info .col .item input[type="text"] { width: 182px; height: 29px; background-color: #d3d2c2; padding: 0 40px; color: #5d5d5d; font-family: "Open Sans", sans-serif; font-size: 12px; font-weight: 400; }
+.form .box .size__kitchen .box__form .info .col .item textarea { width: 194px; height: 46px; background-color: #d3d2c2; padding: 13px 34px; border: none; resize: none; color: #5d5d5d; font-family: "Open Sans", sans-serif; font-size: 12px; font-weight: 400; }
+.form .box .size__kitchen .box__form .info .col .item label[for="email"] { position: absolute; top: 50%; margin-top: -5px; left: 14px; width: 12px; height: 11px; background: url("../img/email.png") 0 0 no-repeat; }
+.form .box .size__kitchen .box__form .info .col .item label[for="phone"] { position: absolute; top: 50%; margin-top: -5px; left: 14px; width: 18px; height: 11px; background: url("../img/phone.png") 0 0 no-repeat; }
+.form .box .size__kitchen .box__form .info .col .item label[for="name"] { position: absolute; top: 50%; margin-top: -7px; left: 14px; width: 15px; height: 15px; background: url("../img/name.png") 0 0 no-repeat; }
+.form .box .size__kitchen .box__form .info .col .item label[for="question"] { position: absolute; left: 11px; top: 10px; width: 12px; height: 15px; background: url("../img/quest.png") 0 0 no-repeat; }
+.form .box .size__kitchen .box__form .info .col .area { margin-bottom: 6px; }
+.form .box .size__kitchen .box__form .info .col .file { position: relative; width: 266px; height: 29px; cursor: pointer; overflow: hidden; line-height: 29px; background: url("../img/plus.png") right 0 no-repeat; }
+.form .box .size__kitchen .box__form .info .col .file input[type="file"] { position: absolute; left: 0; top: 0; width: 100% !important; height: 100% !important; opacity: 0; cursor: pointer; padding: 0; border: 0; line-height: 1em !important; }
+.form .box .size__kitchen .box__form .info .col .file span { display: block; color: #5d5d5d; font-family: "Open Sans", sans-serif; height: 29px; padding-left: 10px; font-size: 10px; font-weight: 400; line-height: 29px; }
 .form .box .size__kitchen .box__form .button { width: 100%; }
 .form .box .size__kitchen .box__form .button input { width: 148px; height: 33px; background-color: #2f649e; font-family: "Open Sans", sans-serif; color: #fff; font-size: 14px; font-weight: 400; text-transform: uppercase; }
 .form .box .marketing__text { width: 100%; box-sizing: border-box; *zoom: 1; }
