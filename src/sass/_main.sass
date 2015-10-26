@@ -55,9 +55,14 @@
 					float: left
 					width: 33.3%
 					input
-						width: 172px
+						width: 152px
 						height: 29px
+						padding: 0 10px
 						background-color: rgba(211, 210, 194, 0.8)
+						color: rgb(93, 93, 93)
+						+regular
+						font-size: 10px
+						font-weight: 400
 			.box__form
 				width: 100%
 				+box
@@ -70,6 +75,33 @@
 					.col
 						float: left
 						width: 50%
+						.form-group
+							float: left
+							width: 262px
+							height: 29px
+							position: relative
+							background: #d3d2c2 url("../img/select.png") right 0 no-repeat
+							p
+								position: absolute
+								left: 0
+								top: 0
+								width: 100%
+								height: 100%
+								overflow: hidden
+								color: rgb(93, 93, 93)
+								+regular
+								font-size: 12px
+								font-weight: 400
+								line-height: 30px
+								padding-left: 9px
+							select
+								width: 100%
+								height: 29px
+								opacity: 0
+								cursor: pointer
+								position: relative
+								border: medium none
+								padding-left: 9px
 				.info
 					width: 100%
 					+box
@@ -141,7 +173,7 @@
 							margin-bottom: 6px
 						.file
 							position: relative
-							width: 266px
+							width: 262px
 							height: 29px
 							cursor: pointer
 							overflow: hidden

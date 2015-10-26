@@ -52,12 +52,15 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .form .box .size__kitchen .box__size { width: 100%; margin-bottom: 20px; box-sizing: border-box; *zoom: 1; }
 .form .box .size__kitchen .box__size:after { content: " "; display: table; clear: both; }
 .form .box .size__kitchen .box__size .col { float: left; width: 33.3%; }
-.form .box .size__kitchen .box__size .col input { width: 172px; height: 29px; background-color: rgba(211, 210, 194, 0.8); }
+.form .box .size__kitchen .box__size .col input { width: 152px; height: 29px; padding: 0 10px; background-color: rgba(211, 210, 194, 0.8); color: #5d5d5d; font-family: "Open Sans", sans-serif; font-size: 10px; font-weight: 400; }
 .form .box .size__kitchen .box__form { width: 100%; box-sizing: border-box; *zoom: 1; }
 .form .box .size__kitchen .box__form:after { content: " "; display: table; clear: both; }
 .form .box .size__kitchen .box__form .selects { width: 100%; margin-bottom: 22px; box-sizing: border-box; *zoom: 1; }
 .form .box .size__kitchen .box__form .selects:after { content: " "; display: table; clear: both; }
 .form .box .size__kitchen .box__form .selects .col { float: left; width: 50%; }
+.form .box .size__kitchen .box__form .selects .col .form-group { float: left; width: 262px; height: 29px; position: relative; background: #d3d2c2 url("../img/select.png") right 0 no-repeat; }
+.form .box .size__kitchen .box__form .selects .col .form-group p { position: absolute; left: 0; top: 0; width: 100%; height: 100%; overflow: hidden; color: #5d5d5d; font-family: "Open Sans", sans-serif; font-size: 12px; font-weight: 400; line-height: 30px; padding-left: 9px; }
+.form .box .size__kitchen .box__form .selects .col .form-group select { width: 100%; height: 29px; opacity: 0; cursor: pointer; position: relative; border: medium none; padding-left: 9px; }
 .form .box .size__kitchen .box__form .info { width: 100%; box-sizing: border-box; *zoom: 1; }
 .form .box .size__kitchen .box__form .info:after { content: " "; display: table; clear: both; }
 .form .box .size__kitchen .box__form .info .col { float: left; width: 50%; }
@@ -70,7 +73,7 @@ body { font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; }
 .form .box .size__kitchen .box__form .info .col .item label[for="name"] { position: absolute; top: 50%; margin-top: -7px; left: 14px; width: 15px; height: 15px; background: url("../img/name.png") 0 0 no-repeat; }
 .form .box .size__kitchen .box__form .info .col .item label[for="question"] { position: absolute; left: 11px; top: 10px; width: 12px; height: 15px; background: url("../img/quest.png") 0 0 no-repeat; }
 .form .box .size__kitchen .box__form .info .col .area { margin-bottom: 6px; }
-.form .box .size__kitchen .box__form .info .col .file { position: relative; width: 266px; height: 29px; cursor: pointer; overflow: hidden; line-height: 29px; background: url("../img/plus.png") right 0 no-repeat; }
+.form .box .size__kitchen .box__form .info .col .file { position: relative; width: 262px; height: 29px; cursor: pointer; overflow: hidden; line-height: 29px; background: url("../img/plus.png") right 0 no-repeat; }
 .form .box .size__kitchen .box__form .info .col .file input[type="file"] { position: absolute; left: 0; top: 0; width: 100% !important; height: 100% !important; opacity: 0; cursor: pointer; padding: 0; border: 0; line-height: 1em !important; }
 .form .box .size__kitchen .box__form .info .col .file span { display: block; color: #5d5d5d; font-family: "Open Sans", sans-serif; height: 29px; padding-left: 10px; font-size: 10px; font-weight: 400; line-height: 29px; }
 .form .box .size__kitchen .box__form .button { width: 100%; }
